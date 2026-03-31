@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Pazmiño — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <p class="logo"><span>&lt;</span>DP<span>/&gt;</span></p>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── PRESENTACIÓN ── -->
+    <section id="sobre-mi">
+      <h1>Daniel Pazmiño</h1>
+      <p class="subtitulo">Ingeniería en Sistemas de la Información · UIDE</p>
+      <p>
+        Estudiante con enfoque principal en <strong>desarrollo de software</strong>.
+        Mi formación me ha permitido trabajar en gestión de bases de datos,
+        infraestructura de redes y ciberseguridad.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ── HABILIDADES ── -->
+    <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
+
+      <ul class="skills-grid">
+
+        <li>
+          <h3>Lenguajes</h3>
+          <ul>
+            <li>Go (Golang)</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C# — Unity (básico)</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Web</h3>
+          <ul>
+            <li>HTML5 semántico</li>
+            <li>CSS3</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Seguridad</h3>
+          <ul>
+            <li>SQLmap</li>
+            <li>Google Dorking</li>
+            <li>Análisis de vulnerabilidades</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Español — nativo</li>
+            <li>Inglés — B2</li>
+          </ul>
+        </li>
+
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ── PROYECTOS ── -->
+    <section id="proyectos">
+      <h2>Proyectos Destacados</h2>
+
+      <div class="proyectos-grid">
+
+        <article>
+          <header>
+            <h3>Sistema de Gestión de Libros Electrónicos</h3>
+            <p><strong>Backend:</strong> Go · <strong>Frontend:</strong> HTML/CSS</p>
+          </header>
+
+          <figure>
+            <img
+              src="Captura de pantalla 2026-03-29 180203.png"
+              alt="Pantalla principal del gestor de libros mostrando la lista de títulos"
+              loading="lazy"
+              width="800"
+              height="450"
+            >
+            <figcaption>Interfaz principal del gestor de libros</figcaption>
+          </figure>
+
+          <p>
+            Aplicación para la administración de bibliotecas digitales.
+            Incluye roles de usuario, gestión CRUD de títulos, autores e ISBN,
+            y búsqueda optimizada.
+          </p>
+
+          <footer>
+            <a href="https://github.com/danixdy8/book-management-system.git"
+               target="_blank" rel="noopener noreferrer">
+              Ver código en GitHub →
+            </a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>ParryMinute — Prototype</h3>
+            <p><strong>Motor:</strong> Unity · <strong>Lenguaje:</strong> C#</p>
+          </header>
+
+          <figure>
+            <img
+              src="Captura de pantalla 2026-03-30 003819.png"
+              alt="Gameplay de ParryMinute: personaje bloqueando un ataque en el momento exacto"
+              loading="lazy"
+              width="800"
+              height="450"
+            >
+            <figcaption>Captura de gameplay</figcaption>
+          </figure>
+
+          <figure>
+            <video src="PARRY.mp4" controls preload="metadata">
+              Tu navegador no soporta el elemento de video.
+            </video>
+            <figcaption>Video demo del juego</figcaption>
+          </figure>
+
+          <p>
+            Minijuego de precisión basado en el sistema de <em>parry</em>,
+            desarrollado para WebGL. El reto es bloquear ataques en el momento
+            exacto para sumar puntos.
+          </p>
+
+          <footer>
+            <a href="https://danixdy8.github.io/ParryGame/"
+               target="_blank" rel="noopener noreferrer">
+              Jugar ahora →
+            </a>
+            <a href="https://github.com/danixdy8/ParryGame.git"
+               target="_blank" rel="noopener noreferrer">
+              Repositorio →
+            </a>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h3>A Hardware Root of Trust Failure in the Nintendo Switch</h3>
+            <p><strong>Tipo:</strong> Ciberseguridad / Investigación</p>
+          </header>
+
+          <p>
+            Análisis técnico sobre la vulnerabilidad <strong>Fusée Gelée</strong>.
+            Explora cómo un fallo en el BootROM permite comprometer la raíz de
+            confianza del hardware.
+          </p>
+
+          <ul>
+            <li>BootROM flaws</li>
+            <li>RCM exploitation</li>
+            <li>DMA overflow</li>
+          </ul>
+
+          <p><strong>Publicado en:</strong> UIDE</p>
+
+          <footer>
+            <a href="https://drive.google.com/file/d/1AfRExhJSSFWdGmsdJKt9KMRfNlK9zWSA/view?usp=sharing"
+               target="_blank" rel="noopener noreferrer">
+              Leer PDF completo →
+            </a>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- ── CONTACTO ── -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de:</p>
+
+      <ul class="contacto-lista">
+        <li>
+          <strong>Email institucional:</strong>
+          <a href="mailto:dapazminome@uide.edu.ec">dapazminome@uide.edu.ec</a>
+        </li>
+        <li>
+          <strong>Email personal:</strong>
+          <a href="mailto:dfpazminio@gmail.com">dfpazminio@gmail.com</a>
+        </li>
+        <li>
+          <strong>Teléfono:</strong>
+          <a href="tel:+593961217758">WhatsaApp</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/danixdy8" target="_blank" rel="noopener noreferrer">
+            github.com/danixdy8
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 · Desarrollado por Daniel Pazmiño</p>
+    <a href="#sobre-mi">↑ Volver al inicio</a>
+  </footer>
+
+</body>
+</html>
