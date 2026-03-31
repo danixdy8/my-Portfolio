@@ -26,8 +26,6 @@ open index.html
 📬 Contacto
 Email: dapazminome@uide.edu.ec / dfpazminio@gmail.com
 
-LinkedIn: [Tu Perfil aquí]
-
 GitHub: @danixdy8
 
 © 2026 - Desarrollado con  por Daniel Pazmiño.
